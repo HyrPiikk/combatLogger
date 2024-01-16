@@ -1,0 +1,26 @@
+#Explication du plugin:
+#Permet d'avoir un Timer pendant un combat et plus faire de commande !
+
+
+
+# La durée en secondes pendant laquelle le joueur est en combat.
+CombatTime: 10
+
+# Si c'est en true, le joueur sera tué lorsqu'il se déconnectera s'il est en combat.
+KillOnLogout: true
+
+EnterCombatMsg: "§cVous êtes maintenant en combat."
+ExitCombatMsg: "§cVous n'êtes plus en combat."
+BannedCommandMsg: "§cVous pouvez pas faire de commande pendant que vous êtes en combat !"
+
+# Si c'est true, les joueurs en combat ne pourront exécuter aucune commande.
+BanAllCommands: false
+
+# Les commandes interdites aux joueurs en combat (Peu important si "BanAllCommands" = true).
+BannedCommands:
+  - spawn
+  - home
+  - tpa
+  - tp
+  - warp
+  - wild
