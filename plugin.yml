@@ -1,0 +1,5 @@
+name: CombatLogger
+main: combat\Main
+author: HyrPiikk
+version: 1.0.0
+api: 5.8.2
